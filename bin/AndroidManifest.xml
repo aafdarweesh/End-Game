@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.endgame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Space"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+             
+           
+        </activity>
+         <activity
+            android:name="com.end2.EndSpace"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+         <activity
+            android:name="com.end2.MainWater"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+         <activity
+            android:name="com.end2.PauseWater"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+        <activity
+            android:name="com.end2.MainCrazy"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+         <activity
+            android:name="com.end2.PauseCrazy"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+        <activity
+            android:name="com.end2.PauseEarth"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+         <activity
+            android:name="com.end2.MainEarth"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+         <activity
+            android:name="com.end2.PlayPage"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+             
+        </activity>
+         <activity
+            android:name="com.end2.Setting"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+         <activity
+            android:name="com.end2.Shop"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+        <activity
+            android:name=".Earth"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            android:theme="@android:style/Animation.Dialog"
+            >
+                    </activity>
+            
+            <activity
+            android:name=".WorkClassEdited"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            android:theme="@android:style/Animation.Dialog"
+            >
+            
+            
+        </activity>
+         <activity
+            android:name=".PauseClass"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+             
+            
+        </activity>
+        
+         <activity
+            android:name="com.end2.MainSpace"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+         </activity>
+         
+         <activity
+            android:name="com.end2.PauseSpace"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+         </activity>
+        
+         <activity
+            android:name="com.end2.HelpSpace"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+         </activity>
+         
+         <activity
+            android:name=".EndPlay"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            >
+        </activity>
+        
+         <activity 
+             android:name=".Try"
+             android:screenOrientation="landscape"
+             android:label="@string/app_name">
+             
+         </activity>
+         
+         <activity 
+             android:name=".Main"
+             android:screenOrientation="landscape"
+             android:label="@string/app_name"
+             >
+             
+         </activity>
+         <activity 
+             android:name="com.end2.HomePage"
+             android:screenOrientation="landscape"
+             >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+             
+         </activity>
+    
+    </application>
+    
+
+</manifest>
