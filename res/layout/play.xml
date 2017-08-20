@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bPlaySpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Space" />
+
+    <Button
+        android:id="@+id/bPlayEarth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Earth" />
+
+    <Button
+        android:id="@+id/bPlayWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water" />
+
+    <Button
+        android:id="@+id/bPlayCrazy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crazy World" />
+
+    
+</LinearLayout>

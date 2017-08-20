@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:name="@drawable/ball"/>
+    <item android:name="@drawable/imprint"/>
+    <item android:name="@drawable/rok"/>
+    <item android:name="@drawable/firstm"/>
+    <item android:name="@drawable/secm"/>
+    <item android:name="@drawable/thirm"/>
+    <item android:name="@drawable/balltwo"/>
+    <item android:name="@drawable/ballthree"/>
+    <item android:name="@drawable/backavatar"/>
+    <item android:name="@drawable/boxbefore"/>
+    <item android:name="@drawable/boxbefore"/>
+    <item android:name="@drawable/hadood"/>
+    <item android:name="@drawable/bacground"/>
+
+</animation-list>
